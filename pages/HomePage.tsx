@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Hero from '../components/Hero';
 import ProductShowcase from '../components/ProductShowcase';
 import WhySection from '../components/WhySection';
+import ContactSection from '../components/ContactSection';
 import LeadFormModal from '../components/LeadFormModal';
 
 const HomePage: React.FC = () => {
@@ -25,6 +26,7 @@ const HomePage: React.FC = () => {
             <Hero onCTAClick={() => setIsModalOpen(true)} />
             <ProductShowcase />
             <WhySection />
+            <ContactSection />
             <LeadFormModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
         </>
     );

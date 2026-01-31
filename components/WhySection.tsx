@@ -6,7 +6,7 @@ const WhySection: React.FC = () => {
     <section id="craft" className="py-20 bg-white">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2">
-          <img src="https://images.unsplash.com/photo-1549298243-001b67f3a9e3?q=80&w=2070&auto=format&fit=crop" alt="Craftsmanship" className="w-full object-cover aspect-[4/3]" />
+          <img src="/assets/craft.png" alt="Craftsmanship" className="w-full object-cover aspect-[4/3]" />
         </div>
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="font-serif text-4xl md:text-5xl font-bold">The Sophia & Jo Standard</h2>

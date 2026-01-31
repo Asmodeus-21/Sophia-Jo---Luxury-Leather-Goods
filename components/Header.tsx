@@ -10,9 +10,9 @@ const Header: React.FC = () => {
           Sophia & Jo
         </Link>
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#collection" className="text-charcoal hover:text-gold transition-colors duration-300">The Collection</a>
-          <a href="#craft" className="text-charcoal hover:text-gold transition-colors duration-300">Our Craft</a>
-          <a href="#contact" className="text-charcoal hover:text-gold transition-colors duration-300">Contact</a>
+          <a href="/#collection" className="text-charcoal hover:text-gold transition-colors duration-300">The Collection</a>
+          <a href="/#craft" className="text-charcoal hover:text-gold transition-colors duration-300">Our Craft</a>
+          <a href="/#contact" className="text-charcoal hover:text-gold transition-colors duration-300">Contact</a>
         </nav>
       </div>
     </header>

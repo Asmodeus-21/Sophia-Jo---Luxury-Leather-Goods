@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="bg-charcoal text-ivory/80 py-12 px-6">
+    <footer className="bg-charcoal text-ivory/80 py-12 px-6">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         <div>
           <h3 className="font-serif text-xl mb-2 text-ivory">Sophia & Jo retail, Inc</h3>
-          <p className="text-sm">123 Luxury Lane</p>
-          <p className="text-sm">Beverly Hills, CA 90210</p>
+          <p className="text-sm">132 Talmage Rd</p>
+          <p className="text-sm">Ukiah, CA 95482</p>
           <p className="text-sm mt-2">
-            <a href="mailto:support@sophiajo.com" className="hover:text-gold transition-colors">support@sophiajo.com</a>
+            <a href="mailto:support@sophiajoretail.in" className="hover:text-gold transition-colors">support@sophiajoretail.in</a>
           </p>
         </div>
         <div>
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
         </div>
         <div>
           <h3 className="font-serif text-xl mb-2 text-ivory">Legal</h3>
-           <ul className="space-y-1">
+          <ul className="space-y-1">
             <li><Link to="/privacy-policy" className="hover:text-gold transition-colors text-sm">Privacy Policy</Link></li>
             <li><Link to="/terms-of-service" className="hover:text-gold transition-colors text-sm">Terms of Service</Link></li>
           </ul>
