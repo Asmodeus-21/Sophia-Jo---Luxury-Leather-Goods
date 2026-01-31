@@ -44,7 +44,7 @@ const ContactSection: React.FC = () => {
                                 <input type="tel" className="w-full border-b border-charcoal/20 py-2 focus:border-gold outline-none transition-colors px-1" placeholder="+1 (707) 000-0000" required />
                             </div>
                             <div className="text-[10px] leading-tight text-charcoal/60 mt-2">
-                                By clicking 'Submit,' I agree to receive recurring automated marketing and informational text messages (e.g., order updates and cart reminders) from Sophia & Jo retail, Inc at the number provided. Consent is not a condition of any purchase. Reply STOP to cancel, HELP for help. Message & data rates may apply. View our <Link to="/privacy-policy" className="underline">Privacy Policy</Link> and <Link to="/terms-of-service" className="underline">Terms of Service</Link>.
+                                By providing your phone number, you agree to receive recurring automated marketing and informational text messages (e.g., order updates and cart reminders) from Sophia & Jo retail, Inc at the number provided. Consent is not a condition of any purchase. Reply STOP to cancel, HELP for help. Message & data rates may apply. View our <Link to="/privacy-policy" className="underline">Privacy Policy</Link> and <Link to="/terms-of-service" className="underline">Terms of Service</Link>.
                             </div>
                             <div className="flex items-start space-x-2 mt-4">
                                 <input

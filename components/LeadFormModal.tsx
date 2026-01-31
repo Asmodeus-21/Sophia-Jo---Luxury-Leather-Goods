@@ -104,7 +104,7 @@ const LeadFormModal: React.FC<LeadFormModalProps> = ({ isOpen, onClose }) => {
               </div>
 
               <div className="text-[10px] leading-tight text-charcoal/60">
-                By clicking 'Submit,' I agree to receive recurring automated marketing and informational text messages (e.g., order updates and cart reminders) from Sophia & Jo retail, Inc at the number provided. Consent is not a condition of any purchase. Reply STOP to cancel, HELP for help. Message & data rates may apply. View our <Link to="/privacy-policy" className="underline hover:text-gold">Privacy Policy</Link> and <Link to="/terms-of-service" className="underline hover:text-gold">Terms of Service</Link>.
+                By providing your phone number, you agree to receive recurring automated marketing and informational text messages (e.g., order updates and cart reminders) from Sophia & Jo retail, Inc at the number provided. Consent is not a condition of any purchase. Reply STOP to cancel, HELP for help. Message & data rates may apply. View our <Link to="/privacy-policy" className="underline hover:text-gold">Privacy Policy</Link> and <Link to="/terms-of-service" className="underline hover:text-gold">Terms of Service</Link>.
               </div>
 
               <div className="flex items-start">
