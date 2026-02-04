@@ -27,11 +27,11 @@ const ContactSection: React.FC = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="md:w-1/2 p-12 bg-white">
-                        <div style={{ minHeight: '598px' }}>
+                    <div className="md:w-1/2 bg-white flex items-center justify-center">
+                        <div style={{ width: '100%', height: '598px', position: 'relative' }}>
                             <iframe
                                 src="https://link.openaria.app/widget/form/ib13SCNVO7qvddcp7qMF"
-                                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px', minHeight: '598px' }}
+                                style={{ width: '100%', height: '598px', border: 'none' }}
                                 id="inline-ib13SCNVO7qvddcp7qMF"
                                 data-layout="{'id':'INLINE'}"
                                 data-trigger-type="alwaysShow"
@@ -47,7 +47,6 @@ const ContactSection: React.FC = () => {
                                 title="A2P Form"
                             />
                         </div>
-                        <script src="https://link.openaria.app/js/form_embed.js"></script>
                     </div>
                 </div>
             </div>

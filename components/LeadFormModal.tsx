@@ -41,10 +41,10 @@ const LeadFormModal: React.FC<LeadFormModalProps> = ({ isOpen, onClose }) => {
               <h2 className="font-serif text-3xl text-charcoal">Join Our Inner Circle</h2>
               <p className="mt-2 text-charcoal/80">Be the first to know about new collections, exclusive events, and private sales.</p>
             </div>
-            <div style={{ minHeight: '598px' }}>
+            <div style={{ width: '100%', height: '598px', position: 'relative' }}>
               <iframe
                 src="https://link.openaria.app/widget/form/ib13SCNVO7qvddcp7qMF"
-                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px', minHeight: '598px' }}
+                style={{ width: '100%', height: '598px', border: 'none' }}
                 id="inline-ib13SCNVO7qvddcp7qMF-modal"
                 data-layout="{'id':'INLINE'}"
                 data-trigger-type="alwaysShow"
@@ -60,7 +60,6 @@ const LeadFormModal: React.FC<LeadFormModalProps> = ({ isOpen, onClose }) => {
                 title="A2P Form"
               />
             </div>
-            <script src="https://link.openaria.app/js/form_embed.js"></script>
           </>
         )}
       </div>
