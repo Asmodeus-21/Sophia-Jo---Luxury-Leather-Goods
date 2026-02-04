@@ -24,14 +24,18 @@ const TermsOfServicePage: React.FC = () => {
                 <h2>Governing Law</h2>
                 <p>These Terms shall be governed and construed in accordance with the laws of California, United States, without regard to its conflict of law provisions.</p>
 
-                <h2 className="font-bold text-xl">SMS Terms</h2>
+                <h2 className="font-bold text-xl">SMS Messaging</h2>
                 <p>By providing your mobile number and opting in, you agree to receive text messages from Sophia & Jo retail, Inc. These messages may include appointment reminders and promotional offers for purses and belts, as well as cart reminders and order updates.</p>
                 <ul>
                     <li><strong>Program Description:</strong> We send recurring automated marketing and informational text messages (e.g., appointment reminders, promotional offers for purses and belts, and order updates) to the mobile number provided.</li>
-                    <li><strong>Opt-Out:</strong> You can cancel the SMS service at any time. Just text "STOP" to our number. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</li>
+                    <li><strong>Opt-Out:</strong> Users can opt-out at any time by texting STOP to +1 707-801-0124. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</li>
+                    <li><strong>Carrier Liability:</strong> Carriers are not liable for delayed or undelivered messages.</li>
                     <li><strong>Help:</strong> If at any time you forget what keywords are supported, just text "HELP" for more information. After you send the SMS message "HELP" to us, we will respond with instructions on how to use our service as well as how to unsubscribe.</li>
                     <li><strong>Rates:</strong> Message and data rates may apply for any messages sent to you from us and to us from you. Message frequency varies. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.</li>
                 </ul>
+                <p className="mt-4">
+                    For more information on how we use your data, please review our <Link to="/privacy-policy" className="text-gold hover:underline">Privacy Policy</Link>.
+                </p>
 
                 <h2>Changes</h2>
                 <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. What constitutes a material change will be determined at our sole discretion.</p>

@@ -12,6 +12,8 @@ const Footer: React.FC = () => {
           <p className="text-sm">Ukiah, CA 95482</p>
           <p className="text-sm mt-2">
             <a href="mailto:support@sophiajoretail.in" className="hover:text-gold transition-colors">support@sophiajoretail.in</a>
+            <span className="mx-2 text-ivory/40">|</span>
+            <a href="tel:+17074631320" className="hover:text-gold transition-colors">+1 707-463-1320</a>
           </p>
         </div>
         <div>

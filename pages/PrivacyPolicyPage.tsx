@@ -31,7 +31,7 @@ const PrivacyPolicyPage: React.FC = () => {
                 <p>We do not sell, trade, or rent your personally identifiable information to others. We may share information with trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential.</p>
 
                 <h2 className="font-bold text-xl">SMS Privacy Policy</h2>
-                <p className="font-semibold italic">"No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."</p>
+                <p className="font-semibold italic">"No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service, is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."</p>
 
                 <h2>Security of Your Information</h2>
                 <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable.</p>

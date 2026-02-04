@@ -1,10 +1,8 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ContactSection: React.FC = () => {
-    const [isChecked, setIsChecked] = useState(false);
-
     return (
         <section id="contact" className="py-20 bg-ivory">
             <div className="container mx-auto px-6">
@@ -30,46 +28,26 @@ const ContactSection: React.FC = () => {
                         </div>
                     </div>
                     <div className="md:w-1/2 p-12 bg-white">
-                        <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                            <div>
-                                <label className="block text-sm font-medium text-charcoal mb-1">Full Name</label>
-                                <input type="text" className="w-full border-b border-charcoal/20 py-2 focus:border-gold outline-none transition-colors px-1" placeholder="Jane Doe" />
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-charcoal mb-1">Email Address</label>
-                                <input type="email" className="w-full border-b border-charcoal/20 py-2 focus:border-gold outline-none transition-colors px-1" placeholder="jane@example.com" />
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-charcoal mb-1">Phone Number</label>
-                                <input type="tel" className="w-full border-b border-charcoal/20 py-2 focus:border-gold outline-none transition-colors px-1" placeholder="+1 (707) 000-0000" required />
-                            </div>
-                            <div className="text-[10px] leading-tight text-charcoal/60 mt-2">
-                                By providing your phone number, you agree to receive recurring automated marketing and informational text messages (e.g., order updates and cart reminders) from Sophia & Jo retail, Inc at the number provided. Consent is not a condition of any purchase. Reply STOP to cancel, HELP for help. Message & data rates may apply. View our <Link to="/privacy-policy" className="underline">Privacy Policy</Link> and <Link to="/terms-of-service" className="underline">Terms of Service</Link>.
-                            </div>
-                            <div className="flex items-start space-x-2 mt-4">
-                                <input
-                                    type="checkbox"
-                                    id="contact-consent"
-                                    checked={isChecked}
-                                    onChange={(e) => setIsChecked(e.target.checked)}
-                                    className="mt-1 h-4 w-4 text-gold border-gray-300 rounded focus:ring-gold"
-                                    required
-                                />
-                                <label htmlFor="contact-consent" className="text-xs text-charcoal/80">
-                                    I provide my express written consent to receive SMS communications.*
-                                </label>
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-charcoal mb-1">Message</label>
-                                <textarea rows={2} className="w-full border border-charcoal/20 p-3 focus:border-gold outline-none transition-colors text-sm" placeholder="How can we help you?"></textarea>
-                            </div>
-                            <button
-                                disabled={!isChecked}
-                                className="w-full bg-gold text-white font-semibold py-3 hover:bg-gold/90 transition-colors shadow-lg shadow-gold/20 disabled:bg-gold/50 disabled:cursor-not-allowed"
-                            >
-                                Send Message
-                            </button>
-                        </form>
+                        <div style={{ minHeight: '598px' }}>
+                            <iframe
+                                src="https://link.openaria.app/widget/form/ib13SCNVO7qvddcp7qMF"
+                                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px', minHeight: '598px' }}
+                                id="inline-ib13SCNVO7qvddcp7qMF"
+                                data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow"
+                                data-trigger-value=""
+                                data-activation-type="alwaysActivated"
+                                data-activation-value=""
+                                data-deactivation-type="neverDeactivate"
+                                data-deactivation-value=""
+                                data-form-name="A2P Form"
+                                data-height="598"
+                                data-layout-iframe-id="inline-ib13SCNVO7qvddcp7qMF"
+                                data-form-id="ib13SCNVO7qvddcp7qMF"
+                                title="A2P Form"
+                            />
+                        </div>
+                        <script src="https://link.openaria.app/js/form_embed.js"></script>
                     </div>
                 </div>
             </div>
