@@ -23,28 +23,28 @@ const LeadFormModal: React.FC<LeadFormModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="bg-ivory rounded-lg shadow-2xl p-8 md:p-12 w-full max-w-lg relative" onClick={e => e.stopPropagation()}>
-        <button onClick={onClose} className="absolute top-4 right-4 text-charcoal/50 hover:text-charcoal transition-colors">
+      <div className="bg-ivory rounded-lg shadow-2xl p-6 md:p-8 w-full max-w-2xl relative" onClick={e => e.stopPropagation()}>
+        <button onClick={onClose} className="absolute top-4 right-4 text-charcoal/50 hover:text-charcoal transition-colors z-10">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
 
         {isSubmitted ? (
-          <div className="text-center">
+          <div className="text-center py-20">
             <h2 className="font-serif text-3xl text-charcoal">Thank You!</h2>
             <p className="mt-4 text-charcoal/80">Welcome to the Inner Circle. Keep an eye on your inbox and messages for exclusive updates.</p>
           </div>
         ) : (
           <>
-            <div className="text-center mb-6">
+            <div className="text-center mb-4">
               <h2 className="font-serif text-3xl text-charcoal">Join Our Inner Circle</h2>
-              <p className="mt-2 text-charcoal/80">Be the first to know about new collections, exclusive events, and private sales.</p>
+              <p className="mt-2 text-charcoal/80">Be the first to know about new collections and exclusive events.</p>
             </div>
-            <div style={{ width: '100%', height: '598px', position: 'relative' }}>
+            <div style={{ width: '100%', height: '850px', position: 'relative' }}>
               <iframe
                 src="https://link.openaria.app/widget/form/ib13SCNVO7qvddcp7qMF"
-                style={{ width: '100%', height: '598px', border: 'none' }}
+                style={{ width: '100%', height: '850px', border: 'none' }}
                 id="inline-ib13SCNVO7qvddcp7qMF-modal"
                 data-layout="{'id':'INLINE'}"
                 data-trigger-type="alwaysShow"
@@ -54,7 +54,7 @@ const LeadFormModal: React.FC<LeadFormModalProps> = ({ isOpen, onClose }) => {
                 data-deactivation-type="neverDeactivate"
                 data-deactivation-value=""
                 data-form-name="A2P Form"
-                data-height="598"
+                data-height="850"
                 data-layout-iframe-id="inline-ib13SCNVO7qvddcp7qMF-modal"
                 data-form-id="ib13SCNVO7qvddcp7qMF"
                 title="A2P Form"
