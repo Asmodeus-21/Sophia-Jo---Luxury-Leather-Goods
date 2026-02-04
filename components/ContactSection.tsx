@@ -84,6 +84,12 @@ const ContactSection: React.FC = () => {
                                 title="A2P Form"
                             />
                         </div>
+                        <div className="mt-4 text-[10px] text-charcoal/40 text-center leading-relaxed max-w-sm mx-auto">
+                            By submitting this form, you agree to our{' '}
+                            <Link to="/terms-of-service" className="underline hover:text-gold transition-colors">Terms of Service</Link>
+                            {' '}and{' '}
+                            <Link to="/privacy-policy" className="underline hover:text-gold transition-colors">Privacy Policy</Link>.
+                        </div>
                     </div>
                 </div>
             </div>
