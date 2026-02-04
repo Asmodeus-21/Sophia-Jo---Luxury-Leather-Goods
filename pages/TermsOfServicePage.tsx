@@ -11,36 +11,48 @@ const TermsOfServicePage: React.FC = () => {
         <div className="bg-white py-16">
             <div className="container mx-auto px-6 max-w-4xl prose lg:prose-lg">
                 <h1 className="font-serif text-4xl">Terms of Service</h1>
-                <p className="text-sm text-gray-500">Last Updated: {new Date().toLocaleDateString()}</p>
+                <p className="text-sm text-gray-500">Effective Date: January 1, 2026</p>
 
-                <p>Please read these Terms of Service ("Terms") carefully before using the website operated by Sophia & Jo retail, Inc. ("us," "we," or "our"). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.</p>
+                <p>Please read these Terms of Service ("Terms") carefully before using the website operated by Sophia & Jo retail, Inc ("us," "we," or "our"). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.</p>
 
-                <h2>Accounts</h2>
-                <p>When you create an account with us, you must provide us with information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.</p>
+                <h2 className="font-bold text-xl mt-8">SMS Messaging Terms & Compliance</h2>
+                <div className="space-y-4">
+                    <p><strong>1. Program Description:</strong> We send recurring automated marketing and informational text messages (e.g., appointment reminders, promotional offers for purses and belts, and order updates) to customers who have booked an appointment with Sophia & Jo retail, Inc through our website at <a href="https://www.sophiajoretail.in/" className="text-gold hover:underline">https://www.sophiajoretail.in/</a>, or via our scheduling forms, and have explicitly opted in.</p>
 
-                <h2>Intellectual Property</h2>
-                <p>The Service and its original content, features, and functionality are and will remain the exclusive property of Sophia & Jo retail, Inc. and its licensors.</p>
+                    <p><strong>2. Cancellation Instructions:</strong> You can cancel the SMS service at any time. Simply text "STOP" to <strong>+1 707-801-0124</strong>. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed.</p>
 
-                <h2>Governing Law</h2>
-                <p>These Terms shall be governed and construed in accordance with the laws of California, United States, without regard to its conflict of law provisions.</p>
+                    <p><strong>3. Support Information:</strong> If you are experiencing issues with the messaging program, you can reply with the keyword "HELP" for more assistance, or you can get help directly at <a href="mailto:support@sophiajoretail.in" className="text-gold hover:underline">support@sophiajoretail.in</a> or call <strong>+1 707-463-1320</strong>.</p>
 
-                <h2 className="font-bold text-xl">SMS Messaging</h2>
-                <p>By providing your mobile number and opting in, you agree to receive text messages from Sophia & Jo retail, Inc. These messages may include appointment reminders and promotional offers for purses and belts, as well as cart reminders and order updates.</p>
-                <ul>
-                    <li><strong>Program Description:</strong> We send recurring automated marketing and informational text messages (e.g., appointment reminders, promotional offers for purses and belts, and order updates) to the mobile number provided.</li>
-                    <li><strong>Opt-Out:</strong> Users can opt-out at any time by texting STOP to +1 707-801-0124. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</li>
-                    <li><strong>Carrier Liability:</strong> Carriers are not liable for delayed or undelivered messages.</li>
-                    <li><strong>Help:</strong> If at any time you forget what keywords are supported, just text "HELP" for more information. After you send the SMS message "HELP" to us, we will respond with instructions on how to use our service as well as how to unsubscribe.</li>
-                    <li><strong>Rates:</strong> Message and data rates may apply for any messages sent to you from us and to us from you. Message frequency varies. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.</li>
+                    <p><strong>4. Carrier Liability:</strong> Carriers are not liable for delayed or undelivered messages.</p>
+
+                    <p><strong>5. Message & Data Rates:</strong> Message and data rates may apply for any messages sent to you from us and to us from you. Message frequency varies based on your service usage and appointment schedule.</p>
+
+                    <p><strong>6. Age Restriction:</strong> You must be 18 years or older to participate in our SMS program.</p>
+
+                    <p><strong>7. Privacy Policy:</strong> For privacy-related inquiries, please refer to our Privacy Policy at: <Link to="/privacy-policy" className="text-gold hover:underline">https://www.sophiajoretail.in/privacy-policy</Link>.</p>
+                </div>
+
+                <h2 className="mt-10">General Terms</h2>
+                <p>This website is owned and operated by Sophia & Jo retail, Inc. By using the Site, you agree to be bound by these Terms of Service.</p>
+
+                <h3 className="text-lg font-bold mt-6">Intellectual Property Rights</h3>
+                <p>All materials available on the Site are the property of Sophia & Jo retail, Inc and are protected by copyright and trademark laws.</p>
+
+                <h3 className="text-lg font-bold mt-6">Disclaimers</h3>
+                <p>The information, products, and services offered on or through the Site are provided "as is" and without warranties of any kind.</p>
+
+                <h3 className="text-lg font-bold mt-6">Governing Law</h3>
+                <p>These Terms of Service shall be governed by and construed in accordance with the laws of the State of California.</p>
+
+                <h3 className="text-lg font-bold mt-10">Contact Us</h3>
+                <ul className="list-none pl-0">
+                    <li><strong>Company:</strong> Sophia & Jo retail, Inc</li>
+                    <li><strong>Phone:</strong> +1 707-463-1320</li>
+                    <li><strong>Email:</strong> <a href="mailto:support@sophiajoretail.in" className="text-gold hover:underline">support@sophiajoretail.in</a></li>
+                    <li><strong>Website:</strong> <a href="https://www.sophiajoretail.in" className="text-gold hover:underline">https://www.sophiajoretail.in/</a></li>
                 </ul>
-                <p className="mt-4">
-                    For more information on how we use your data, please review our <Link to="/privacy-policy" className="text-gold hover:underline">Privacy Policy</Link>.
-                </p>
 
-                <h2>Changes</h2>
-                <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. What constitutes a material change will be determined at our sole discretion.</p>
-
-                <Link to="/" className="text-gold hover:underline mt-8 block no-underline">&larr; Back to Home</Link>
+                <Link to="/" className="text-gold hover:underline mt-12 block no-underline">&larr; Back to Home</Link>
             </div>
         </div>
     );
